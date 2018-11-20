@@ -12,7 +12,8 @@ app.get('/', function(req, res) {
   });
 }); // End of app.get('/', function(req, res) {
 
-
+// GET /users
+// Give users a name prop and age prop
 
 app.listen(port, function() {
   console.log(`Listening on port ${port}`)

@@ -13,3 +13,7 @@ it('should return hello world response', (done) => {
   }) // End of .expect((res) => {
   .end(done);
 });
+
+// Make a new test
+// assert 200
+// Assert that you exist in users array
